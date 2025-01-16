@@ -1,5 +1,5 @@
-import pygame
-from pygame.sprite import Sprite
+import pygame # type: ignore
+from pygame.sprite import Sprite # type: ignore
 
 class Bullet(Sprite):
     #A class to manage bullets fired from the ship.
